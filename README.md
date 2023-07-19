@@ -190,6 +190,10 @@ A common method of deeplinking is to give the user the URL of a webpage (for ins
 
 You can also use a service that provides pages that do #3 for you, such as [Branch](https://branch.io/).
 
+### Cordova Electron Usage
+This plugin can be used with https://github.com/SPIE-InfoGraph/cordova-electron-updated .
+Through this plugin(cordova-electron-updated), you can use the Custom URL scheme (deep link) feature.
+
 ### CSP - or: `handleOpenURL` doesn't work
 The Whitelist plugin will prevent inline JS from executing, unless you whitelist the url scheme. Please see [this SO issue](http://stackoverflow.com/questions/34257097/using-handleopenurl-with-custom-url-scheme-in-cordova/34281420#34281420) for details.
 

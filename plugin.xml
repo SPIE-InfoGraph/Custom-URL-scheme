@@ -144,4 +144,11 @@
     <hook type="after_plugin_install" src="src/wp8/hooks/add-uri-mapper.js" />
   </platform>
 
+
+  <platform name="electron">
+    <js-module src="www/electron/LaunchMyApp.js" name="LaunchMyApp">
+    </js-module>
+  </platform>
+
+
 </plugin>
